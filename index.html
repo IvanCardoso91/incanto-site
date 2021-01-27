@@ -4,12 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" type="text/css">
     <title>Site Incanto</title>
-
 </head>
 
 <body>
-    <section>menu top</section>
+    <section class="menu">
+        <div class="menu-mobile">
+            <div>img</div>
+            <div>
+                <button onclick="openDropDownMobile()">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3 12H21" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M3 6H21" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M3 18H21" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <div id="dropdown-mobile" style="display: none;">
+            <div>Início</div>
+            <div>Quem somos</div>
+            <div>Incanto</div>
+            <div>Eventos</div>
+            <div>Contato</div>
+            <div>Instagram icon</div>
+        </div>
+    </section>
     <section>foto com frases</section>
     <section>quadrinhos explicando</section>
     <section>o que é incanto</section>
@@ -17,6 +38,7 @@
     <section>desate seus nós e construa</section>
     <section>quer criar uma exp?</section>
     <section>footer</section>
+    <script src="./scripts/index.js"></script>
 </body>
 
 </html>

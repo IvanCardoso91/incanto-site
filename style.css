@@ -1,0 +1,16 @@
+body {
+    margin: 0px;
+}
+
+
+/* //MOBILE\\ */
+
+@media (min-width: 320px) {
+    .menu {
+        padding: 18px 27px;
+    }
+    .menu-mobile {
+        display: flex;
+        justify-content: space-between;
+    }
+}
