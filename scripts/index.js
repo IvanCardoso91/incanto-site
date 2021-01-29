@@ -1,9 +1,9 @@
 const dropDown = document.getElementById('dropdown-mobile')
 
 function openDropDownMobile() {
-    if (dropDown.style.display == 'none') {
-        dropDown.style.display = 'block'
+    if (dropDown.classList == 'menu__dropdown-mobile--hidden') {
+        dropDown.classList = 'menu__dropdown-mobile--visible'
     } else {
-        dropDown.style.display = 'none'
+        dropDown.classList = 'menu__dropdown-mobile--hidden'
     }
 }

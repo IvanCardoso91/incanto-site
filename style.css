@@ -9,8 +9,20 @@ body {
     .menu {
         padding: 18px 27px;
     }
-    .menu-mobile {
+    .menu__mobile {
         display: flex;
         justify-content: space-between;
+    }
+    .menu__dropdown-mobile--hidden {
+        visibility: hidden;
+        max-height: 0px;
+        opacity: 0;
+        transition: visibility 1s linear, opacity 250ms linear, max-height 250ms linear;
+    }
+    .menu__dropdown-mobile--visible {
+        visibility: visible;
+        max-height: 100%;
+        opacity: 1;
+        transition: visibility 1s linear, opacity 500ms linear, max-height 500ms linear;
     }
 }
