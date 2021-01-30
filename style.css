@@ -29,12 +29,14 @@ body {
         visibility: hidden;
         max-height: 0px;
         opacity: 0;
+        overflow: hidden;
         transition: visibility 1s linear, opacity 500ms linear, max-height 750ms linear;
     }
     .menu__dropdown-mobile--visible {
         visibility: visible;
         max-height: 500px;
         opacity: 1;
+        overflow: hidden;
         transition: visibility 1s linear, opacity 500ms linear, max-height 1s linear;
     }
     .menu__dropdown-mobile--visible div,
