@@ -3,9 +3,20 @@
     src: url('./assets/fonts/Barlow-ExtraLight.ttf')
 }
 
+@font-face {
+    font-family: 'Barlow Bold';
+    src: url('./assets/fonts/Barlow-Bold.ttf')
+}
+
+@font-face {
+    font-family: 'October Twilight';
+    src: url('./assets/fonts/October-Twilight.ttf')
+}
+
 body {
     font-family: 'Barlow';
     margin: 0px;
+    background-color: #FFFFFF;
 }
 
 
@@ -42,5 +53,54 @@ body {
     .menu__dropdown-mobile--visible div,
     .menu__dropdown-mobile--hidden div {
         padding-top: 24px;
+    }
+    .content1 {
+        background-color: #FFFFFF;
+    }
+    .content1__image-title1,
+    .content1__image-title2 {
+        color: #FFFFFF;
+    }
+    .content1__image-title1 {
+        font-size: 18px;
+        margin-bottom: 16px;
+    }
+    .content1__image-title2 {
+        font-family: 'October Twilight' !important;
+        font-size: 29px;
+        margin-bottom: 16px;
+    }
+    .content1__image {
+        height: 215px;
+        background-image: url('./assets/img/Fundomobile.png');
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .content1__text {
+        font-family: 'Barlow Bold' !important;
+        color: #F82875;
+        font-size: 20px;
+        display: flex;
+        text-align: center;
+        padding: 0px 45px;
+        margin-top: 20px;
+        margin-bottom: 44px;
+    }
+    .content1__button-position {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 44px;
+    }
+    .content1__button {
+        font-family: 'Barlow Bold' !important;
+        color: #FFFFFF;
+        background-color: #F82875;
+        border-radius: 10px;
+        border-color: transparent;
+        padding: 20px 23px;
+        font-size: 16px;
     }
 }
