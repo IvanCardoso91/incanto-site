@@ -199,7 +199,7 @@ body {
         justify-content: center;
         align-items: center;
         text-align: center;
-        padding-bottom: 44px;
+        padding: 0px 25px 44px 25px;
     }
     .content4__frame {
         display: flex;
@@ -225,5 +225,30 @@ body {
         justify-content: center;
         align-items: center;
         padding: 44px 0px;
+    }
+    .content6 {
+        background-color: #F82875;
+    }
+    .content6__text {
+        font-family: 'Barlow Bold' !important;
+        font-size: 20px;
+        color: #FFFFFF;
+        display: flex;
+        text-align: center;
+        padding: 44px 44px;
+    }
+    .content6__button-position {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 44px;
+    }
+    .content6__button {
+        font-family: 'Barlow Bold' !important;
+        font-size: 16px;
+        color: #F82875;
+        background-color: #FFFFFF;
+        border-radius: 10px;
+        padding: 20px 24px;
+        border-color: transparent;
     }
 }
