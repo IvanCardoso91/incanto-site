@@ -116,7 +116,7 @@ body {
     }
     .content2__img2 {
         height: 330px;
-        background-image: url(./assets/img/Foto-2-mobile.png);
+        background-image: url('./assets/img/Foto-2-mobile.png');
         background-repeat: no-repeat;
         background-attachment: inherit;
         background-position: center;
@@ -138,5 +138,92 @@ body {
         justify-content: center;
         padding: 0px 45px 25px 45px;
         flex-direction: column;
+    }
+    .content3__title {
+        display: flex;
+        justify-content: space-around;
+        padding: 40px 0px 40px 0px;
+    }
+    .content3__title-text {
+        color: #F82875;
+        font-family: 'Barlow Bold' !important;
+        font-size: 20px;
+        width: 40%;
+    }
+    .content3__text {
+        font-size: 16px;
+        color: #5F5F5F;
+        text-align: left;
+        display: flex;
+        justify-content: center;
+        padding: 0px 45px 25px 45px;
+        flex-direction: column;
+    }
+    .content3__img {
+        height: 181px;
+        background-image: url('./assets/img/Foto-3-mobile.png');
+        background-repeat: no-repeat;
+        background-attachment: inherit;
+        background-position: center;
+    }
+    .content3__button-position {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 44px;
+        padding-top: 44px;
+    }
+    .content3__button {
+        font-family: 'Barlow Bold' !important;
+        background: #FFFFFF;
+        border: 2px solid #F82875;
+        color: #5F5F5F;
+        box-sizing: border-box;
+        border-radius: 10px;
+        padding: 20px 24px;
+    }
+    .content4 {
+        background-color: rgba(248, 40, 117, 0.07);
+    }
+    .content4__title {
+        font-family: 'Barlow Bold' !important;
+        font-size: 20px;
+        color: #F82875;
+        display: flex;
+        justify-content: center;
+        padding: 44px 0px;
+    }
+    .content4__text {
+        color: #2C2C2C;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 44px;
+    }
+    .content4__frame {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+    .content5__title {
+        font-family: 'Barlow Bold' !important;
+        font-size: 20px;
+        color: #F82875;
+        display: flex;
+        text-align: center;
+        padding: 44px 44px;
+    }
+    .content5__list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .content5__maps {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 44px 0px;
     }
 }
