@@ -142,13 +142,14 @@ body {
     .content3__title {
         display: flex;
         justify-content: space-around;
-        padding: 40px 0px 40px 0px;
+        align-items: center;
+        padding: 40px 45px 40px 45px;
     }
     .content3__title-text {
         color: #F82875;
         font-family: 'Barlow Bold' !important;
         font-size: 20px;
-        width: 40%;
+        width: 50%;
     }
     .content3__text {
         font-size: 16px;
@@ -215,16 +216,26 @@ body {
         text-align: center;
         padding: 44px 44px;
     }
+    li {
+        padding-bottom: 22px;
+    }
     .content5__list {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        padding: 0px 25px;
+    }
+    .content5__list-address {
+        list-style-image: url('./assets/svg/location-icon.svg');
+    }
+    .content5__list-contact {
+        list-style-image: url('./assets/svg/mail-icon.svg');
+    }
+    .content5__list-hour {
+        list-style-image: url('./assets/svg/clock-icon.svg');
     }
     .content5__maps {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 44px 0px;
+        padding: 0px 0px 44px 0px;
     }
     .content6 {
         background-color: #F82875;
