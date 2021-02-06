@@ -262,4 +262,15 @@ body {
         padding: 20px 24px;
         border-color: transparent;
     }
+    .footer {
+        background-color: #F8F5F5;
+    }
+    .footer__img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        margin-top: 44px;
+        margin-bottom: 16px;
+    }
 }
