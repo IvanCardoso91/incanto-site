@@ -273,18 +273,20 @@ body {
         margin-top: 44px;
         margin-bottom: 16px;
     }
+    /* esta faltando outros estilos como display-justify-align --> verificar */
     .footer-text {
         text-align: center;
     }
+    /* averiguar o uso do margin-top: 40% e verificar posicionamento */
     .img-footer {
-        display:flex;
+        display: flex;
         justify-content: center;
         align-items: center;
         height: 100%;
         margin-top: 40%
     }
-   .text-end {
-       text-align: center;
-       margin-top: 40px;
-   }
+    .text-end {
+        text-align: center;
+        margin-top: 40px;
+    }
 }
