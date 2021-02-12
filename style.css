@@ -270,15 +270,16 @@ body {
         justify-content: center;
         align-items: center;
         height: 100%;
-        margin-top: 44px; 
     }
-    /* esta faltando outros estilos como display-justify-align --> verificar */
     .footer-text {
-        display:flex;
+        display: flex;
+        justify-content: center;
         text-align: center;
+        /* nao utilizar margin e sim padding nesse caso */
         margin-top: 30px;
         margin-right: 16px;
     }
+    /* faltou justify-content: center; */
     .img-instagram {
         display: flex;
     }
@@ -293,10 +294,19 @@ body {
     .text-end {
         display: flex;
         text-align: center;
-        margin-top: 44px;
-    }
-    .text-end {
-        text-align: center;
         margin-top: 40px;
     }
+    /* -- paddings text-end
+    padding: 40px 25px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 25px;
+    padding-left: 25px;
+
+    --paddingd footer-text:
+    padding: 16px 25px 32px 25px;
+     padding-top: 16px; 
+     padding-right: 25px; 
+     padding-bottom: 32px; 
+     padding-left: 25px; */
 }
