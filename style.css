@@ -265,26 +265,29 @@ body {
     .footer {
         background-color: #F8F5F5;
     }
-    .footer__img {
+    .footer-img {
         display: flex;
         justify-content: center;
         align-items: center;
         height: 100%;
-        margin-top: 44px;
-        margin-bottom: 16px;
+        margin-top: 44px; 
     }
     .footer-text {
-        text-align: center;
-    }
-    .img-footer {
         display:flex;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-        margin-top: 40%
+        text-align: center;
+        margin-top: 30px;
+        margin-right: 16px;
     }
-   .text-end {
-       text-align: center;
-       margin-top: 40px;
-   }
+    .img-instagram {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .text-end {
+        display: flex;
+        text-align: center;
+        margin-top: 44px;
+    }
+    
 }
