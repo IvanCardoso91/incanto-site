@@ -272,6 +272,7 @@ body {
         height: 100%;
         margin-top: 44px; 
     }
+    /* esta faltando outros estilos como display-justify-align --> verificar */
     .footer-text {
         display:flex;
         text-align: center;
@@ -280,6 +281,11 @@ body {
     }
     .img-instagram {
         display: flex;
+    }
+    /* averiguar o uso do margin-top: 40% e verificar posicionamento */
+    .img-footer {
+        display: flex;
+        justify-content: center;
         align-items: center;
         justify-content: center;
         margin-top: 30px;
@@ -289,5 +295,8 @@ body {
         text-align: center;
         margin-top: 44px;
     }
-    
+    .text-end {
+        text-align: center;
+        margin-top: 40px;
+    }
 }
