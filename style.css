@@ -272,19 +272,26 @@ body {
         
     }
     .footer-text {
-        display:flex
-        padding: 16px 25px 32px 25px;
+       display: flex;
+       justify-content: center;
+       text-align: center;
+       padding: 16px 25px 32px;
          /* nao utilizar margin e sim padding nesse caso */
     }
     /* faltou justify-content: center; */
     .img-instagram {
-        
+        display:flex;
+        justify-content: center;
     }
-    
-    
-        
-        
+    .text-end{
+        display:flex;
+        text-align: center;
+        justify-content: center;
+        padding: 40px 25px
     }
+        
+        
+    
     /* -- paddings text-end
     padding: 40px 25px;
     padding-top: 40px;
