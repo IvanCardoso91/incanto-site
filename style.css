@@ -19,6 +19,136 @@ body {
     background-color: #FFFFFF;
 }
 
+/* //DESKTOP\\ */ 
+@media (min-width: 1025px){
+    /*Menu desktop*/
+
+    .menu__mobile{
+        display:none !important;
+    }
+    .menu__desktop{
+        display:flex !important;
+        width: 100%;
+        height: 54px;
+    }
+
+    .menu__desktop ul{
+        list-style: none;
+        margin-bottom: 20px;
+        margin-left: 240px;
+        margin-top: 14px;
+        font-size: 23px;
+        flex-direction: row;/*Se eu tiro o nowrap, ele fica responsivo mas Quem somos quebra de linha. Se eu deixo, ele deixa de se ajustar*/
+
+        white-space: nowrap;/*parece um position absolute*/
+        display: flex;
+        
+    }
+    .menu__desktop ul li{
+        display: inline-block;
+        padding-left: 24px ;
+        position: relative;
+    }
+    .menu__desktop ul li a{
+        text-decoration: none;
+        color: #5F5F5F
+    }
+    .logoEntrelacos_Desktop{
+        width: 211px;
+        height: 53px;
+        position: relative;
+        margin-top: 4px;
+        margin-left: 114px;
+    }
+    .instagram_menu_desktop{
+        width: 35px;
+        position: relative;
+        margin-left: 70px;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    /*content1*/
+
+    .content1{
+        width: 100%;
+    }
+    .content1__image{
+        background-image: url(../incanto-site/assets/img/Foto-Principal.png)!important ;
+        width: 100%;
+        height: 560px !important;
+        background-size: 100% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center;
+        background-size: cover ;
+    }
+    .content1__image-title1{ 
+        display: flex;
+        font-size: 36px !important;
+        margin-top: 73px;
+       
+    }
+    .content1__image-title2{
+        font-size: 75px !important;
+    }
+    .content1__text {
+        font-size: 40px !important;
+        padding-top: 140px !important;
+        padding-left: 120px !important;
+        margin-bottom: 56px !important;
+    }
+
+    .content1__button{
+        width: 272px;
+        margin-bottom: 72px;
+    }
+
+    /*Content 2*/
+    .content2{
+        width: 100%;
+        height: 1159px;/*Você parou na parte que tem que fazer uma nova classe pra cada 
+        div. Separar os textos e títulos por classes, usando display none pra n afetar mobile*/
+    }
+    .content2__title{
+        font-size: 36px !important;
+        position: relative;
+        margin-left: 500px;
+        padding-top: 70px !important; 
+    }
+    .content2__text{
+        display: none;
+    }
+    .content2__text1-0{
+        display: flex !important;
+        position: relative;
+        margin-left: 600px !important;
+        margin-top: -300px;
+    }
+    .content2__text1-2{
+        display: flex !important;
+        position: relative;
+        margin-left: 600px !important;
+        margin-top: 20px;
+    }
+    .content2__title1{
+        display: flex !important;
+        position: relative;
+        margin-left: 139px;
+    }
+    .content2__title2{
+        display: flex !important;
+        position: relative;
+        margin-left: -339px;
+        margin-top: 120px;
+    }
+    .content2__title{
+        display: none;
+    }
+}   
+
+
 
 /* //MOBILE\\ */
 
@@ -26,6 +156,22 @@ body {
     .menu {
         padding: 18px 27px;
         font-size: 20px;
+        display: flex;
+    }
+    .menu__desktop{
+        display: none;
+    }
+    .content2__text1-0{
+        display: none;
+    }
+    .content2__text1-2{
+        display: none;
+    }
+    .content2__title1{
+        display: none;
+    }
+    .content2__title2{
+        display: none;
     }
     .menu__mobile {
         display: flex;
